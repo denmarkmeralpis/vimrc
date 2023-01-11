@@ -19,12 +19,9 @@ Plugin 'rstacruz/sparkup'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ryanoasis/vim-devicons'
-" Plugin 'vwxyutarooo/nerdtree-devicons-syntax'
 Plugin 'tpope/vim-fugitive'
-" Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
-" Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'cj/vim-webdevicons'
 Plugin 'joshdick/onedark.vim'
 Plugin 'sheerun/vim-polyglot'
@@ -117,9 +114,7 @@ if $TERM_PROGRAM != "Apple_Terminal"
   endif
 endif
 
-" colorscheme one_monokai
-" colorscheme onedark
-colorscheme onehalfdark
+colorscheme onedark
 
 let g:airline_theme='onedark'
 let g:airline#extensions#hunks#enabled = 0
